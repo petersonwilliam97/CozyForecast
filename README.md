@@ -39,7 +39,9 @@ A pixel-art weather companion built with vanilla JavaScript, integrating OpenWea
 
 ## 📸 Preview
 
-![CozyForecast Preview](images/preview.png)
+<p align="center">
+  <img src="preview.png" width="600">
+</p>
 
 ---
 
