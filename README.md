@@ -1,52 +1,120 @@
-# CozyForecast 🌙
+# CozyForecast 🌦️
 
-A pixel-art weather companion built with vanilla JavaScript, integrating OpenWeather API for real-time weather data.
+**Interactive weather data visualization powered by the OpenWeather API.**
+
+CozyForecast is a lightweight web application that retrieves, processes and visualizes real-time weather data through the OpenWeather API, providing a clean and intuitive interface for exploring meteorological information.
 
 ---
 
-## 🌟 Features
+## Features
 
-- Real-time weather updates using OpenWeather API  
-- Search by city name  
-- Dynamic UI updates based on API responses  
-- Conditional rendering for error handling (invalid locations)  
-- Country detection with flag display  
-- Animated UI elements  
-- Responsive weather layout  
+- Real-time weather data retrieval
+- City-based search
+- Dynamic weather visualization
+- Country identification with flags
+- Weather icons based on API conditions
+- Responsive interface
 - Keyboard support (Enter to search)
+- Error handling for invalid locations
 
 ---
 
-## ⚙️ Key Technical Highlights
+## Data Workflow
 
-- **Vanilla JavaScript DOM manipulation** (no frameworks)  
-- **Fetch API integration** with external weather service  
-- **Error handling based on API response codes (e.g. 404)**  
-- **Native internationalization using `Intl.DisplayNames`**  
-- **Dynamic asset rendering based on weather conditions**  
-- **Animation loop using `requestAnimationFrame`**
+```text
+User Input
+     │
+     ▼
+OpenWeather API
+     │
+     ▼
+JSON Response
+     │
+     ▼
+Data Processing
+     │
+     ▼
+Dynamic UI Rendering
+```
 
 ---
 
-## 💻 Tech Stack
+## Technical Highlights
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- OpenWeather API  
+- REST API integration using Fetch API
+- JSON parsing and data processing
+- Dynamic DOM manipulation
+- Conditional rendering
+- Native internationalization (`Intl.DisplayNames`)
+- Error handling based on API responses
+- UI animations with `requestAnimationFrame`
 
 ---
 
-## 📸 Preview
+## Tech Stack
+
+### Languages
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+### Data & APIs
+
+- OpenWeather API
+- REST API
+- JSON
+
+### Concepts
+
+- Data Visualization
+- API Integration
+- Asynchronous Programming
+- Client-side Rendering
+
+---
+
+## Preview
 
 <p align="center">
-  <img src="preview.png" width="600">
+  <img src="preview.png" width="700">
 </p>
 
 ---
 
-## 🚀 How to Run
+## Project Goals
 
-1. Clone the repository
+- Consume data from a public REST API
+- Process JSON responses
+- Transform weather data into an intuitive visualization
+- Practice asynchronous JavaScript
+- Build interactive interfaces without frameworks
+
+---
+
+## Getting Started
+
 ```bash
-git clone https://github.com/petersonwilliam97/cozyforecast
+git clone https://github.com/petersonwilliam97/CozyForecast.git
+
+cd CozyForecast
+```
+
+Open `index.html` in your browser.
+
+---
+
+## Future Improvements
+
+- Hourly and weekly forecasts
+- Temperature charts
+- Weather history
+- Multiple location comparison
+- Additional weather metrics
+- Improved accessibility
+
+---
+
+## License
+
+This project is available under the MIT License.
